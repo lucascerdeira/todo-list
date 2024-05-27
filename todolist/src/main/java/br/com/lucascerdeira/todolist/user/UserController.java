@@ -39,7 +39,7 @@ public class UserController {
 
         var userCreated  = this.userRepository.save(userModel);
         return userCreated;
-
+        // retornando user para cadastro
         
         /*System.out.println("Username:" + userModel.getUsername());
         System.out.println("Name:" + userModel.getName());
