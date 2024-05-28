@@ -45,4 +45,6 @@ public class UserController {
         System.out.println("Name:" + userModel.getName());
         System.out.println("PassWord:" + userModel.getPassword());*/
     }
+
+    
 }
