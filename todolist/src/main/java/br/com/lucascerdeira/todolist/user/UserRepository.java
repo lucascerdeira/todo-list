@@ -10,6 +10,4 @@ public interface UserRepository extends JpaRepository<UserModel, UUID>{
     // interface é um contrato de metodos
     UserModel findByUsername(String username);
 
-    List<UserModel> listaUsers(String usermodel)
-
 }
