@@ -33,11 +33,16 @@ public class TaskModel {
      @Column(length = 50)
      private String title;
 
+     @Column(name = "STARTAT")
      private LocalDateTime startAt;
+
+     @Column(name = "ENDAT")
      private LocalDateTime endAt;
+
+     @Column(name = "PRIORITY")
      private String priority;
     
-
+     @Column(name = "IDUSER")
      private UUID idUser;
 
      @CreationTimestamp
