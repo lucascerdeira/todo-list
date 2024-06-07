@@ -9,5 +9,6 @@ import org.springframework.data.jpa.repository.JpaRepository;
 public interface UserRepository extends JpaRepository<UserModel, UUID>{
     // interface é um contrato de metodos
     UserModel findByUsername(String username);
+    //UserModel findByPassword(String password);
 
 }
